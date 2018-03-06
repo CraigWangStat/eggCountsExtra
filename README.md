@@ -1,5 +1,7 @@
 # eggCountsExtra
-Add-ons for eggCounts Package
+Add-ons for eggCounts Package, the main package [`eggCounts`](https://CRAN.R-project.org/package=eggCounts) is available on CRAN.
+
+
 
 ## Installation
 

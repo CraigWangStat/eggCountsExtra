@@ -9,7 +9,7 @@ Authors@R: c(person("Craig", "Wang", role = c("cre","aut"),
     person("Anja", "Fallegger", role = "ctb"),
     person("Reinhard", "Furrer", role = "ctb",
     email = "reinhard.furrer@math.uzh.ch"))
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: Craig Wang <craig.wang@uzh.ch>
 Description: Provides additional (experimental) models and functions for analyzing faecal egg count data to assess anthelmintic
     efficacy.
 License: GPL (>= 3)
