@@ -1,0 +1,6 @@
+export(getCode)
+export(getTemplate)
+export(w_quant)
+export(w_ratio)
+import(stats)
+import(eggCounts)
