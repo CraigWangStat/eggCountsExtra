@@ -21,6 +21,9 @@ Craig Wang \email{craig.wang@uzh.ch}
 \note{
 The models are developed by Anja Falleger.
 }
+\examples{
+getCode("Po")
+}
 \seealso{
 \code{\link[eggCounts]{fecr_stanExtra}} for using the model specification.
 }

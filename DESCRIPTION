@@ -1,16 +1,18 @@
 Package: eggCountsExtra
 Type: Package
-Title: Add-ons for eggCounts Package
+Title: Add-Ons for eggCounts Package
 Version: 0.1
+Date: 2018-04-16
+Imports: testthat
 Depends:
-    eggCounts
+    eggCounts (>= 2.0)
 Authors@R: c(person("Craig", "Wang", role = c("cre","aut"),
     email = "craig.wang@uzh.ch"),
     person("Anja", "Fallegger", role = "ctb"),
     person("Reinhard", "Furrer", role = "ctb",
     email = "reinhard.furrer@math.uzh.ch"))
 Maintainer: Craig Wang <craig.wang@uzh.ch>
-Description: Provides additional (experimental) models and functions for analyzing faecal egg count data to assess anthelmintic
+Description: Provides additional models and functions for analyzing faecal egg count data to assess anthelmintic
     efficacy.
 License: GPL (>= 3)
 Encoding: UTF-8

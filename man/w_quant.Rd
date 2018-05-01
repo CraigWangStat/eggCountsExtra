@@ -19,6 +19,10 @@ A vector of outlier weights.
 Anja Fallegger \cr
 Craig Wang
 }
+\examples{
+data(epgs)
+w_quant(epgs$after)
+}
 \seealso{
 \code{\link[eggCounts]{fecr_stanExtra}} for using the model specification.
 }
