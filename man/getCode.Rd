@@ -1,10 +1,10 @@
 \name{getCode}
 \alias{getCode}
 \title{
-Get stan model code for egg count data analysis
+Get stan model code for egg count data analysis dealing with outliers
 }
 \description{
-Obtain stan model specifications that can be used in the \strong{eggCounts} package.
+Obtain stan model specifications with handling of ponential outliers that can be used in the \strong{eggCounts} package.
 }
 \usage{
 getCode(modelName)
@@ -22,7 +22,8 @@ Craig Wang \email{craig.wang@uzh.ch}
 The models are developed by Anja Falleger.
 }
 \examples{
-getCode("Po")
+model_one <- getCode("Po")
+writeLines(model_one)
 }
 \seealso{
 \code{\link[eggCounts]{fecr_stanExtra}} for using the model specification.

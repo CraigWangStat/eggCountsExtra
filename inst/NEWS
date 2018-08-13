@@ -1,3 +1,8 @@
+version 0.3:
+
+* updated help file exampless
+* improved mode code
+
 version 0.2:
 
 * updated documentation and tests to pass CRAN checks

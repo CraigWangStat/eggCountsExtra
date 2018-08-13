@@ -14,7 +14,10 @@ w_ratio(preFEC, postFEC)
   \item{preFEC}{vector of pre-treatment faecal egg counts}
 }
 \value{
-A vector of outlier weights.
+The returned value is a list consists of
+\item{w}{a vector of outlier weights}
+\item{wmo}{weighted mean of outliers}
+\item{postmean}{mean of post-treatment counts}
 }
 \author{
 Anja Fallegger \cr

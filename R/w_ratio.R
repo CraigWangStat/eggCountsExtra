@@ -12,6 +12,9 @@ w_ratio <- function(preFEC, postFEC){
   for(i in seq(1:n)[-out]){
     if(ratios[i] > 1){ w[i] <- 1/ratios[i] }}
 
-  return(w)
+  wmo <- sum(w[w<1] * postFEC[w<1])/sum(w[w<1])
+  postmean <- mean(postFEC)
+
+  return(list(weight = w, wmo = wmo, postmean = postmean))
 }
 

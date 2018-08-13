@@ -10,8 +10,8 @@ This package provides additional models and functions for analyzing faecal egg c
 \tabular{ll}{
 Package: \tab eggCountsExtra\cr
 Type: \tab Package\cr
-Version: \tab 0.2\cr
-Date: \tab 2018-05-01\cr
+Version: \tab 0.3\cr
+Date: \tab 2018-08-11\cr
 License: \tab GPL (>= 3) \cr
 LazyLoad: \tab yes\cr
 }}

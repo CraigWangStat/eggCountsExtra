@@ -14,6 +14,9 @@ w_quant <- function(postFEC){
   w <- rep(1,n)
   w[outlier] <- 1 - distPerc + 0.01
 
-  return(w)
+  wmo <- sum(w[w<1] * postFEC[w<1])/sum(w[w<1])
+  postmean <- mean(postFEC)
+
+  return(list(weight = w, wmo = wmo, postmean = postmean))
 }
 

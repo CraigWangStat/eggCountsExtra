@@ -15,6 +15,10 @@ A character string containing the stan model template.
 \author{
 Craig Wang \email{craig.wang@uzh.ch}
 }
+\examples{
+template <- getTemplate()
+writeLines(template)
+}
 
 \seealso{
 \code{\link[eggCounts]{fecr_stanExtra}} for using the model specification.
